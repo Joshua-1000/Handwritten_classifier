@@ -74,7 +74,7 @@ history = model.fit(
 )
 
 test_loss, test_acc = model.evaluate(validation_dataset)
-print("Accuracy:", test_acc)
+print("Accuracy:   ", test_acc)
 
 
 
